@@ -19,7 +19,7 @@ st.sidebar.markdown(
     ":+1: This notebook introduces you to the `streamlit` library.")
 
 
-hover_data = ['name', 'primary_fuel', "capacity_mw", 'owner'commissioning_year']
+hover_data = ['name', 'primary_fuel', 'capacity_mw', 'owner','commissioning_year']
 
 
 if not df.empty:
